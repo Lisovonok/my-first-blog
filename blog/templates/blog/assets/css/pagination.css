@@ -1,0 +1,14 @@
+.pages-block {
+  display: flex;
+  margin-top: 5px;
+}
+.pages-block div {
+  border: 1px solid gray;
+  padding: 2px 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.pages-block div.active {
+  background-color: red;
+}
